@@ -1,0 +1,152 @@
+1) What is polymorphism?
+Polymorphism is a concept by which we can perform a single action in different ways. Polymorphism is derived from two Greek words: poly and morphs.
+The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+2) Explain the functionality of linked list.
+A linked list consists of two parts. Information part and the link part. In the single linked list, first node of the list is marked by a unique pointer named as start 
+and this pointer points to the first element of the list, and the link part of each node consists of a pointer pointing to the next node, but the last node of the list 
+has null pointer identifying the last node. The linked list can be traversed easily with the help of Start pointer.
+
+3) What is normalization of databases, joins, and keys?
+Normalization is also known as the process of organizing data in a DBMS efficiently without any loss of data.
+Advantages of the normalization process are as follows:
+First is eliminating redundant data and ensuring data dependencies make sense.
+It reduces the amount of space that the database consumes and ensure that data is logically stored.
+
+Join:
+This clause is used in DBMS to combine rows from two or more tables, based on a related column between them.
+
+Keys:
+Keys are a crucial part of the relational database model. They are used to identify and establish relationships between tables. 
+They are also used to uniquely determine each record or row of data in a table.
+
+Key:
+A Key can be a single attribute or a group of attributes acting as a key.
+
+4) What is inheritance?
+In, object-oriented programming, inheritance is a mechanism based on classes.Inheritance refers to inheriting the data members and properties of a parent class to a child class.
+A class which is derived from another class is often called as a sub-class, and the class from which the child class is derived is known as super-class or parent class.
+
+5) What are the different types of inheritance?
+Types of Inheritance:
+
+Single inheritance
+Multiple Inheritance
+Multi-level Inheritance
+Multi-path Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+
+6) Demonstrate the process of inheriting variable of one class to other class?
+//Base Class  
+class A   
+{   
+public int a;    
+}  
+
+//Derived Class  
+class B : A  
+{  
+a=15;  
+}  
+
+
+7) What are the loops statements?
+To execute a block of statement several times in a program depending upon the conditional statement loops are used.
+For each successful execution of the loop, the conditional statement should be checked. If the conditional statement is true, then the loop will be executed.
+If the conditional statement is false, then the loop will be terminated.
+
+8) What are the four basic principles of OOPS?
+The four basic principles of Object-Oriented Programming System are listed below:
+
+Abstraction
+Inheritance
+Encapsulation
+Polymorphism.
+
+9) What is Database Management System?
+A Database Management System is a software system is used for creating and managing databases. 
+DBMS make it possible for the end user to create and maintain databases. DBMS provides an interface between the end user/application and the databases.
+
+10)List different advantages of DBMS?
+The list of several advantages of Database Management System:
+
+Improved data security.
+Better data integration.
+Minimized data inconsistency.
+Improved data access.
+Improved decision making.
+Increased end-user productivity.
+
+11)What is the difference between a Clustered-index and a non-clustered-index?
+Clustered Index - Only one per table is allowed
+Faster to read than non clustered because the data is physically stored in index order
+
+Non-Clustered Index - Can be used many times in a table
+Quicker for inserting and updating operations than a clustered index
+
+12) What is a pointer in C? What is its use?
+The pointer is a particular variable which holds the address of another variable of the same type. 
+Pointers can be of any data type and structure are allowed in C programming language.
+Pointer variable stores the address of another variable of the same data type as the value of the pointer variable.
+
+Following are the uses of pointers:
+-To point a variable in the memory.
+-Pointers are used to traverse the linked list.
+-To point out a structure.
+
+13)Write a c program to swap two numbers without using a temporary variable?
+void swap(int &i, int &j)  
+{  
+i=i+j;  
+j=i-j;  
+i=i-j;  
+}  
+
+14)What is an array?
+An array is a group of elements used to store a group of related data of the same data type.
+The array uses index number to identify each element in an array.
+
+15)What is the pre-processor?
+The pre-processor is just a text substitution tool, and they instruct the compiler to do required pre-processing before actual compilation.
+
+16)Differentiate between 'a' and "a."
+"a" is string value whereas 'a' is a character value in c programming language.
+
+17)What is the difference and similarity between C and C++?
+C and C++ both use the same syntax. C++ is the extension of the C language. C and C++ both have same compilers. 
+C++ language consists of classes and objects whereas there are no classes and objects available in the C language. 
+C++ is an OOP based programming whereas C is not OOPS based programming language.
+
+18)What are IPv4 and IPv6? Differentiate between them?
+IPv4:
+-IPv4 contains 32 bit Ip address.
+-The older version of the IP address.
+-generates 4.29 x 10^9 unique network addresses
+
+IPv6:
+-IPv6 contains 128 bit IP address.
+-The newer version of the IP address.
+-produces 3.4 x 1038 addresses
+
+19)Describe three levels of data abstraction? Which layer is at the user end?
+The three levels of data abstraction are listed below:
+-Physical level: This is the lowest level of database abstraction describes how the data are stored.
+-Logical level: This level is the next higher level than the physical level of database abstraction, 
+which represents the data stored in the database and what relationship among those data.
+-View level: This is the highest level of database abstraction describes only part of the entire database.
+
+20)Differentiate between Char and Varchar in DBMS?
+Char and Varchar both are the datatypes in DBMS. Char and varchar both datatypes are used to store characters up to 8000. 
+The only point of difference between the Char and Varchar is Char fixed length string datatype whereas Varchar, as the name suggests, 
+is a variable length character storing data type.
+
+For example, char(7) will take 7 bytes of memory to store the string, and it also includes space. 
+Whereas varchar will take variable space, which means that it will only take that much of space as the actual data entered as the data of varchar data type.
+
+21)How is modularity present in C++?
+Modularity is the concept explained in oops concept, and it was introduced with class and objects in c++. Functions, classes, structures implements modularity in C++.
+
+22)What are the SQL tables?
+A table is a set of related data in a structured format in the database. A table is consists of rows and columns.
+
